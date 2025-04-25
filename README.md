@@ -104,3 +104,10 @@ once you have made your changes, commit them to your forked repository and push 
 
 ### assets
 - various [assets](assets) used in the project, such as images, logos and icons.
+
+## license
+
+<a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" height=30 alt="Creative Commons Attribution-ShareAlike 4.0 International Public
+License icon"/></a>
+
+[ncr tech meetups](https://sharon-wang.github.io/ncr-tech-meetups) © 2025-present by [sharon wang](https://sharons.site) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
