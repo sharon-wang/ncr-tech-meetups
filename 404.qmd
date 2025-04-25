@@ -1,0 +1,7 @@
+---
+title: this page doesn't exist
+---
+
+hello! sorry about this...the page you're looking for does not exist.
+
+head over to the home page to peruse some active tech meetups: [🏡](./index.qmd).

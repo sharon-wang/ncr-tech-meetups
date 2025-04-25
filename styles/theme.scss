@@ -1,0 +1,188 @@
+/*-- scss:defaults --*/
+
+// SIZES
+
+$border-radius-radius: 0.5rem !default;
+$border-width: 4px !default;
+$font-size: 1rem !default;
+$font-size-category: 0.8rem !default;
+
+// COLOURS
+
+$white:    #fff !default;
+$gray-100: #ebebeb !default;
+$gray-200: #dee2e6 !default;
+$gray-300: #ced4da !default;
+$gray-400: #adb5bd !default;
+$gray-500: #868e96 !default;
+$gray-600: #4e5d6c !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$patina: #317672 !default;
+$sand: #e1d2ac !default;
+$brick: #b50f02 !default;
+$dark-patina: #2c6461 !default;
+
+$primary:       $patina !default;
+$secondary:     $brick !default;
+$light:         #faf1d8 !default;
+$dark:          #2d2a21 !default;
+
+$body-bg: $sand !default;
+$body-color: $dark !default;
+
+$link-color: $secondary !default;
+$text-colour: $dark !default;
+$border-colour: $dark !default;
+$category-bg: $light !default;
+
+$navbar-fg: $light !default;
+$footer-bg: $dark !default;
+$footer-fg: $light !default;
+
+$input-bg: $body-bg !default;
+$input-disabled-color: $secondary !default;
+$input-disabled-bg: $body-color !default;
+
+$input-color: $gray-900 !default;
+$input-border-color: $border-colour !default;
+$input-border-width: $border-width !default;
+
+$input-placeholder-color: $gray-800 !default;
+
+$input-group-addon-color: $body-color !default;
+$input-group-addon-bg: $body-bg !default;
+
+// FONTS
+
+// Override the sans serif variable with a custom monospaced font
+$font-family-sans-serif: "Chivo Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$web-font-path: "https://fonts.googleapis.com/css2?family=Chivo Mono:wght@300;400;700&display=swap" !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+// $font-size-root: 1.2rem !default;
+
+/*-- scss:rules --*/
+
+// Override default filter searchbox styling from Quarto
+
+.navbar-brand > img {
+    max-height: 60px;
+    overflow: auto;
+}
+
+.listing-actions-group {
+    min-height: 60px;
+}
+
+.listing-actions-group > .input-group {
+    border: solid $input-border-width $border-colour;
+    border-radius: $border-radius-radius;
+    width: 100%;
+}
+
+.listing-actions-group > .input-group > .input-group-text {
+    border: none;
+    border-right: solid $input-border-width $border-colour;
+}
+
+.listing-actions-group > .input-group > .search.form-control {
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+
+.quarto-listing-category > .category {
+    padding-left: 1rem;
+}
+
+.quarto-listing-category > .category.active {
+    background-color: $border-colour;
+    color: $category-bg;
+    border-radius: $border-radius-radius;
+    padding-left: 1rem;
+}
+
+.listing-actions-group > .quarto-listing-filter {
+    margin-bottom: 0;
+}
+
+// Custom classes
+
+.listing-action-button {
+    border: solid $input-border-width $border-colour;
+    border-radius: $border-radius-radius;
+    margin-left: 1rem;
+    padding: 0.3rem 0;
+    font-size: $font-size*.8;
+    width: 25%;
+    min-width: 80px;
+}
+
+.listing-action-button:hover {
+    background-color: $border-colour;
+    color: $category-bg;
+}
+
+.listing-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.listing-collection {
+    padding: 0.8rem 0;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.listing-collection-card {
+    list-style: none;
+    padding: 1rem 1.5rem;
+    border: $border-width solid $border-colour;
+    border-radius: $border-radius-radius;
+}
+
+.listing-categories {
+    padding: 0;
+}
+
+.listing-category {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+    margin: 0.3rem 0;
+    background-color: $category-bg;
+    color: $text-colour;
+    font-size: $font-size-category;
+    border: $border-width/1.5 dashed $border-colour;
+    border-radius: $border-radius-radius;
+}
+
+.listing-category:hover {
+    background-color: $border-colour;
+    color: $category-bg;
+}
+
+.listing-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.listing-link > a:hover {
+    color: $dark-patina;
+    text-decoration: none;
+}
+
+.listing-link > a:hover::after {
+    content: "<--";
+    margin-left: 0.1rem;
+}

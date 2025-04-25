@@ -1,0 +1,5 @@
+---
+title: "add/modify/remove a meetup"
+---
+
+to add, modify or remove a meetup, you can [contribute](https://github.com/sharon-wang/ncr-tech-meetups?tab=readme-ov-file#contributing) a pull request to make the change yourself, or [open an issue](https://github.com/sharon-wang/ncr-tech-meetups/issues/new) to file a request for a change.

@@ -1,0 +1,70 @@
+<script>
+  function clearFilters() {
+    // Clear the filter search box
+    const input = document.querySelector('#listing-listing > div.listing-actions-group > div > input');
+    if (input) {
+      input.value = '';
+      const event = new Event('input', {
+        bubbles: true
+      });
+      input.dispatchEvent(event);
+    }
+
+    // Clear the listing category
+    window.quartoListingCategory('<%= utils.b64encode(``) %>');
+  }
+
+  function setQuartoListingCategory(category) {
+    window.quartoListingCategory(category);
+    const input = document.querySelector('#listing-listing > div.listing-actions-group > div > input');
+  }
+
+  // Insert the Clear Filters button beside the search box
+  const listingActionsGroup = document.querySelector('#listing-listing > div.listing-actions-group');
+  if (listingActionsGroup) {
+    const button = document.createElement('button');
+    button.className = 'listing-action-button';
+    button.textContent = 'Clear Filters';
+    button.onclick = clearFilters;
+    listingActionsGroup.appendChild(button);
+  }
+</script>
+
+<ul class="listing-collection list">
+  <% for (const item of items) { %>
+    <li class="listing-collection-card" <%=metadataAttrs(item) %>>
+      <p id="<%= item.name %>" class="listing-name">
+        <%= item.name %>
+      </p>
+      <% if (item.categories) { %>
+        <ul class="listing-categories">
+          <% for (const category of item.categories) { %>
+            <li class="listing-category"
+              onclick="window.quartoListingCategory('<%= utils.b64encode(category) %>');"
+              onkeydown="if (event.key === 'Enter' || event.key === ' ') window.quartoListingCategory('<%= utils.b64encode(category) %>');"
+              tabindex="0"
+            >
+              <%= category %>
+            </li>
+          <% } %>
+        </ul>
+      <% } %>
+      <% if (item.description) { %>
+        <p class="listing-description">
+          <%= item.description %>
+        </p>
+      <% } %>
+      <% if (item.links) { %>
+        <ul class="listing-links">
+          <% for (const link of item.links) { %>
+            <li class="listing-link">
+              <a href="<%= link.url %>">
+                <%= link.text %>
+              </a>
+            </li>
+            <% } %>
+        </ul>
+      <% } %>
+      </li>
+  <% } %>
+</ul>

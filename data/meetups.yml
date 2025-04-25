@@ -1,0 +1,99 @@
+- name: Artengine
+  categories:
+    - art
+    - design
+    - creative technology
+  links:
+    - text: Website
+      url: "https://artengine.ca/"
+    - text: Events
+      url: "https://www.eventbrite.ca/o/artengine-83975894043"
+
+- name: CapCHI
+  categories:
+    - human computer interaction
+    - UX
+    - design
+  links:
+    - text: Website
+      url: "https://capchi.org/"
+    - text: Events
+      url: "https://www.meetup.com/capchi/"
+
+- name: Cocoaheads
+  categories:
+    - ios
+    - mac
+    - apple
+  links:
+    - text: Slack
+      url: "https://cocoaheads-ottawa.slack.com/"
+    - text: Events
+      url: "https://lu.ma/user/philippec"
+    - text: Google Group
+      url: "https://groups.google.com/g/ococoa"
+    - text: Website
+      url: "http://cocoaheads.org/ca/OttawaGatineauOntario/index.html"
+
+- name: ForwardJS
+  categories:
+    - javascript
+    - web
+  links:
+    - text: Website
+      url: "https://forwardjs.com/"
+    - text: Events
+      url: "https://www.meetup.com/ottawa-forwardjs-meetup/"
+    - text: Discord
+      url: "https://discord.com/invite/XMqZZtpPSK"
+
+- name: Ottawa Civic Tech
+  categories:
+    - open data
+    - public policy
+    - civic tech
+  links:
+    - text: Website
+      url: "https://ottawacivictech.ca/"
+    - text: Events
+      url: "https://www.meetup.com/yow_ct/"
+    - text: Slack
+      url: "https://join.slack.com/t/yowcivictech/shared_invite/zt-2okutr5f9-QQkFMFKPNqyIrC5bul74OQ"
+
+- name: Open Source Nerds and Nachos
+  categories:
+    - open source
+    - free software
+  links:
+    - text: Events
+      url: "https://www.meetup.com/opensourcenerdsandnachos/"
+
+- name: OWASP Ottawa Chapter
+  categories:
+    - security
+    - hacking
+  links:
+    - text: Website
+      url: "https://owasp.org/www-chapter-ottawa/"
+    - text: Events
+      url: "https://www.meetup.com/owasp-ottawa"
+
+- name: RLadies Ottawa
+  categories:
+    - data science
+    - R
+  links:
+    - text: Website
+      url: "https://rladies-ottawa.github.io"
+    - text: Events
+      url: "https://www.meetup.com/rladies-ottawa/"
+
+- name: Write The Docs Ottawa
+  categories:
+    - technical writing
+    - documentation
+  links:
+    - text: Website
+      url: "https://rladies-ottawa.github.io"
+    - text: Events
+      url: "https://www.meetup.com/write-the-docs-ottawa/"

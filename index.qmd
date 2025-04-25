@@ -1,0 +1,14 @@
+---
+title: "active meetups"
+listing:
+  contents:
+    - data/meetups.yml
+  template: templates/_listing.ejs
+  field-required: [name, links, categories]
+  categories: true
+  filter-ui: true
+  sort: name
+date-modified: last-modified
+---
+
+here's a collection of some tech-related meetups in ottawa / gatineau 🇨🇦.

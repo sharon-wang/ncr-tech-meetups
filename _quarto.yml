@@ -1,0 +1,45 @@
+project:
+  type: website
+
+website:
+  title: "ncr tech meetups"
+  site-url: https://sharon-wang.github.io/ncr-tech-meetups
+  repo-url: https://github.com/sharon-wang/ncr-tech-meetups
+  issue-url: https://github.com/sharon-wang/ncr-tech-meetups/issues/new
+  repo-actions: [edit, source, issue]
+  favicon: assets/favicon.png
+  open-graph: true
+  twitter-card: true
+  image: assets/social.png
+  image-alt: "ncr tech meetups"
+  navbar:
+    title: false
+    logo: assets/logo.png
+    logo-alt: "ncr tech meetups logo"
+    search: false
+    pinned: true
+    right:
+      - text: "[about]"
+        href: "about.qmd"
+      - text: "[add a meetup]"
+        href: "add-meetup.qmd"
+      - icon: github
+        href: https://github.com/sharon-wang/ncr-tech-meetups
+        aria-label: "github repository"
+        target: "_blank"
+  page-footer:
+    left: "tech meetups in the national capital region 🍁"
+    right: 
+      - icon: github
+        href: https://github.com/sharon-wang/ncr-tech-meetups
+        aria-label: "github repository"
+        target: "_blank"
+
+format:
+  html:
+    theme:
+      - superhero
+      - brand
+      - styles/theme.scss
+    link-external-newwindow: true
+    anchor-sections: true
