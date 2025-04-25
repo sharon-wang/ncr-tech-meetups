@@ -1,6 +1,31 @@
-# ncr tech meetups
+![ncr tech meetups logo](assets/logo.png)
 
-this is a collection of tech meetups in the ottawa / gatineau "national capital region" (ncr).
+# {🍁} ncr tech meetups
+
+this is the project repo for a collection of tech meetups in the ottawa / gatineau "national capital region" (ncr).
+
+to check it out, visit [sharon-wang.github.io/ncr-tech-meetups](https://sharon-wang.github.io/ncr-tech-meetups).
+
+## table of contents
+
+- [contributing](#contributing)
+  - [1️⃣ fork and clone this project](#1️⃣-fork-and-clone-this-project)
+  - [2️⃣ install dependencies](#2️⃣-install-dependencies)
+  - [3️⃣ make your changes](#3️⃣-make-your-changes)
+    - [add a new meetup](#add-a-new-meetup)
+    - [modify an existing meetup](#modify-an-existing-meetup)
+    - [remove a meetup](#remove-a-meetup)
+  - [4️⃣ preview your changes locally](#4️⃣-preview-your-changes-locally)
+    - [quarto ide support](#quarto-ide-support)
+  - [5️⃣ submit a pull request](#5️⃣-submit-a-pull-request)
+- [project structure](#project-structure)
+  - [pages](#pages)
+  - [data](#data)
+  - [config](#config)
+  - [templates](#templates)
+  - [styles](#styles)
+  - [assets](#assets)
+- [license](#license)
 
 ## contributing
 
@@ -70,13 +95,11 @@ to exit the preview, enter `Ctrl/Cmd + C` in the terminal to shut down the web s
 #### quarto ide support
 
 - if you're using [VS Code](https://code.visualstudio.com/), you can install the [quarto extension](https://marketplace.visualstudio.com/items?itemName=quarto.quarto) for easier editing and previewing.
-- if you're using [Positron](https://positron.posit.co/) or RStudio, these IDEs have bundled support for quarto.
+- if you're using [Positron](https://positron.posit.co/) or [RStudio](https://posit.co/downloads/), these IDEs have bundled support for quarto.
 
 ### 5️⃣ submit a pull request
 
 once you have made your changes, commit them to your forked repository and push them to github. then, [create a pull request to the original repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). your changes will be reviewed and if all looks good, your PR will be merged into the main repo 🙂
-
----
 
 ## project structure
 
