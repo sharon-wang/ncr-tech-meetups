@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "about",
+    "section": "",
+    "text": "this is a collection of some active tech meetups in the ottawa / gatineau “national capital region” (ncr).\n\nan active meetup is a meetup that is running monthly-ish events\na tech meetup is a meetup focusing topics such as: software development, programming languages, user experience in technology, research relating to computers, creativity in technology, documentation of technology, the technology industry, hacking/making with technology, etc."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "active meetups",
+    "section": "",
+    "text": "here’s a collection of some tech-related meetups in ottawa / gatineau 🇨🇦.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nArtengine\n\n\n\nart\n\n\ndesign\n\n\ncreative technology\n\n\n\n\n Website \n\n\n Events \n\n\n\n\n\nCapCHI\n\n\n\nhuman computer interaction\n\n\nUX\n\n\ndesign\n\n\n\n\n Website \n\n\n Events \n\n\n\n\n\nCocoaheads\n\n\n\nios\n\n\nmac\n\n\napple\n\n\n\n\n Slack \n\n\n Events \n\n\n Google Group \n\n\n Website \n\n\n\n\n\nForwardJS\n\n\n\njavascript\n\n\nweb\n\n\n\n\n Website \n\n\n Events \n\n\n Discord \n\n\n\n\n\nOWASP Ottawa Chapter\n\n\n\nsecurity\n\n\nhacking\n\n\n\n\n Website \n\n\n Events \n\n\n\n\n\nOpen Source Nerds and Nachos\n\n\n\nopen source\n\n\nfree software\n\n\n\n\n Events \n\n\n\n\n\nOttawa Civic Tech\n\n\n\nopen data\n\n\npublic policy\n\n\ncivic tech\n\n\n\n\n Website \n\n\n Events \n\n\n Slack \n\n\n\n\n\nRLadies Ottawa\n\n\n\ndata science\n\n\nR\n\n\n\n\n Website \n\n\n Events \n\n\n\n\n\nWrite The Docs Ottawa\n\n\n\ntechnical writing\n\n\ndocumentation\n\n\n\n\n Website \n\n\n Events \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "add-meetup.html",
+    "href": "add-meetup.html",
+    "title": "add/modify/remove a meetup",
+    "section": "",
+    "text": "to add, modify or remove a meetup, you can contribute a pull request to make the change yourself, file a request to add a new meetup, or open an issue to request the modification or removal of a meetup."
+  }
+]
