@@ -31,6 +31,8 @@ to check it out, visit [sharon-wang.github.io/ncr-tech-meetups](https://sharon-w
 
 if you're just looking to add/modify/remove meetups, you can edit the [meetups.yml](data/meetups.yml) file as described under the "[make your changes](#3️⃣-make-your-changes)" section and submit a pull request.
 
+instead of adding the meetup yourself, you can also file a request to add a new meetup using this issue form: [add a new meetup](https://github.com/sharon-wang/ncr-tech-meetups/issues/new?template=add-meetup.yml).
+
 if you want to build and preview the website locally, follow the instructions below.
 
 ### 1️⃣ fork and clone this project
