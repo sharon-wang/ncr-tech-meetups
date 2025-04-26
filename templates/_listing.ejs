@@ -19,15 +19,25 @@
     const input = document.querySelector('#listing-listing > div.listing-actions-group > div > input');
   }
 
-  // Insert the Clear Filters button beside the search box
-  const listingActionsGroup = document.querySelector('#listing-listing > div.listing-actions-group');
-  if (listingActionsGroup) {
-    const button = document.createElement('button');
-    button.className = 'listing-action-button';
-    button.textContent = 'Clear Filters';
-    button.onclick = clearFilters;
-    listingActionsGroup.appendChild(button);
-  }
+  document.addEventListener('DOMContentLoaded', () => {
+    // Insert the Clear Filters button beside the search box
+    const listingActionsGroup = document.querySelector('#listing-listing > div.listing-actions-group');
+    if (listingActionsGroup) {
+      const button = document.createElement('button');
+      button.className = 'listing-action-button';
+      button.textContent = 'Clear Filters';
+      button.onclick = clearFilters;
+      listingActionsGroup.appendChild(button);
+    }
+
+    // Remove the empty icons from the footer so the text alignment looks centered
+    const footerTocIcons = document.querySelectorAll('footer .nav-footer .nav-footer-center .toc-action i');
+    footerTocIcons.forEach(icon => {
+      if (icon.classList.contains('empty')) {
+        icon.remove();
+      }
+    });
+  });
 </script>
 
 <ul class="listing-collection list">

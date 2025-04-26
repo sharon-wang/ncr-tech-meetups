@@ -1,3 +1,5 @@
+// for all variables: https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
+
 /*-- scss:defaults --*/
 
 // SIZES
@@ -6,6 +8,7 @@ $border-radius-radius: 0.5rem !default;
 $border-width: 4px !default;
 $font-size: 1rem !default;
 $font-size-category: 0.8rem !default;
+$nav-link-font-size: 0.9rem !default;
 
 // COLOURS
 
@@ -74,6 +77,26 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Chivo Mono:wght@300;40
 .navbar-brand > img {
     max-height: 60px;
     overflow: auto;
+}
+
+.nav-footer {
+    & > * {
+        font-size: $nav-link-font-size !important;
+    }
+}
+
+.nav-footer .toc-actions {
+    padding-top: 2rem;
+}
+
+.nav-footer .toc-actions > ul {
+    padding-left: 0;
+}
+
+@media (max-width: 575.98px) {
+    .nav-footer-left {
+        margin-top: 1em;
+    }
 }
 
 .listing-actions-group {
