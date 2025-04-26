@@ -1,0 +1,110 @@
+name: "Add Meetup Request"
+description: Request a meetup to be added.
+title: "[add meetup request] <title>"
+labels: ["add meetup"]
+body:
+- type: markdown
+  attributes:
+    value: |
+      Hello! Thanks for your interest in adding a meetup to the NCR Tech Meetups website!
+
+      Please fill out the form below to request a meetup to be added. The information you
+      provide will be used to create a new entry in the [data/meetups.yml](https://github.com/sharon-wang/ncr-tech-meetups/blob/main/data/meetups.yml) file.
+- type: textarea
+  id: meetup-name
+  attributes:
+    label: Meetup Name
+    description: |
+      The name of the meetup you would like added to the site.
+
+      For example:
+      ```yaml
+      name: Pretzels and Friends
+      ```
+    placeholder: |
+      name: Pretzels and Friends
+    value: |
+      name: 
+    render: yaml
+  validations:
+    required: true
+- type: textarea
+  id: meetup-description
+  attributes:
+    label: Meetup Description
+    description: |
+      Optional. A short, single-sentence description of the meetup.
+
+      For example:
+      ```yaml
+      description: A monthly meetup for sharing knowledge about pretzels and other baked goods.
+      ```
+    placeholder: |
+      description: A monthly meetup for sharing knowledge about pretzels and other baked goods.
+    value: |
+      description: 
+    render: yaml
+  validations:
+    required: false
+- type: textarea
+  id: meetup-categories
+  attributes:
+    label: Meetup Categories
+    description: |
+      A list of 2-3 categories that describe the meetup. Try to reuse existing categories when possible.
+
+      You can see the categories on the [website](https://sharon-wang.github.io/ncr-tech-meetups)
+      or in the [data/meetups.yml](https://github.com/sharon-wang/ncr-tech-meetups/blob/main/data/meetups.yml) file.
+
+      For example:
+      ```yaml
+      categories:
+        - javascript
+        - web
+        - pretzels
+      ```
+    placeholder: |
+      categories:
+        - javascript
+        - web
+        - pretzels
+    value: |
+      categories:
+        - 
+        - 
+    render: yaml
+  validations:
+    required: true
+- type: textarea
+  id: meetup-links
+  attributes:
+    label: Meetup Links
+    description: |
+      A list of links to the meetup's website, events, and/or social media. You can add as many links as you like.
+      Each link should have display text and a URL. At minimum, please include a link to the meetup's events page.
+
+      For example:
+      ```yaml
+      links:
+        - text: Website
+          url: "https://example.com/preztels-and-friends"
+        - text: Events
+          url: "https://example.com/meetup/preztels-and-friends"
+        - text: Discord
+          url: "https://example.com/discord/preztels-and-friends"
+      ```
+    placeholder: |
+      links:
+        - text: Website
+          url: "https://example.com/preztels-and-friends"
+        - text: Events
+          url: "https://example.com/meetup/preztels-and-friends"
+        - text: Discord
+          url: "https://example.com/discord/preztels-and-friends"
+    value: |
+      links:
+        - text: 
+          url: 
+    render: yaml
+  validations:
+    required: true
