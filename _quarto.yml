@@ -29,7 +29,7 @@ website:
         target: "_blank"
   page-footer:
     left: "tech meetups in the national capital region 🍁"
-    center:
+    right:
       - icon: cc-circle-fill
         href: "https://creativecommons.org/licenses/by-sa/4.0/"
         aria-label: "cc by sa 4.0"
@@ -37,12 +37,6 @@ website:
       - text: "content license: cc by-sa 4.0"
         href: "https://creativecommons.org/licenses/by-sa/4.0"
         target: "_blank"
-    right: 
-      - icon: github
-        href: https://github.com/sharon-wang/ncr-tech-meetups
-        aria-label: "github repository"
-        target: "_blank"
-
 format:
   html:
     theme:

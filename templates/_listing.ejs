@@ -30,12 +30,10 @@
       listingActionsGroup.appendChild(button);
     }
 
-    // Remove the empty icons from the footer so the text alignment looks centered
+    // Remove the icons from the github-related links in the footer
     const footerTocIcons = document.querySelectorAll('footer .nav-footer .nav-footer-center .toc-action i');
     footerTocIcons.forEach(icon => {
-      if (icon.classList.contains('empty')) {
-        icon.remove();
-      }
+      icon.remove();
     });
   });
 </script>
