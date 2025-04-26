@@ -8,8 +8,14 @@ website:
   issue-url: https://github.com/sharon-wang/ncr-tech-meetups/issues/new
   repo-actions: [edit, source, issue]
   favicon: assets/favicon.png
-  open-graph: true
-  twitter-card: true
+  open-graph:
+    title: "ncr tech meetups"
+    description: |
+      {🍁} a collection of tech meetups in the ottawa / gatineau "national capital region"
+  twitter-card: 
+    title: "ncr tech meetups"
+    description: |
+      {🍁} a collection of tech meetups in the ottawa / gatineau "national capital region"
   image: assets/social.png
   image-alt: "ncr tech meetups"
   navbar:
