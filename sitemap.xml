@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sharon-wang.github.io/ncr-tech-meetups/about.html</loc>
-    <lastmod>2025-04-26T02:53:59.111Z</lastmod>
-  </url>
-  <url>
     <loc>https://sharon-wang.github.io/ncr-tech-meetups/index.html</loc>
-    <lastmod>2025-04-26T02:53:59.112Z</lastmod>
+    <lastmod>2025-04-26T03:54:00.280Z</lastmod>
   </url>
   <url>
     <loc>https://sharon-wang.github.io/ncr-tech-meetups/add-meetup.html</loc>
-    <lastmod>2025-04-26T02:53:59.111Z</lastmod>
+    <lastmod>2025-04-26T03:54:00.278Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sharon-wang.github.io/ncr-tech-meetups/about.html</loc>
+    <lastmod>2025-04-26T03:54:00.278Z</lastmod>
   </url>
 </urlset>
